@@ -318,6 +318,10 @@ h2 {
     flex-direction: row-reverse; /* Carrusel a la izquierda, texto a la derecha */
 }
 
+.clase.stretching {
+    flex-direction: row-reverse; /* Carrusel a la izquierda, texto a la derecha */
+}
+
 .clases-container-mobile {
     display: none;
 }
@@ -756,4 +760,45 @@ footer .bi:hover {
     padding: 10px;
     border-radius: 8px;
     margin-top: 10px;
+}
+
+/* Estilos para la sección de Títulos */
+.titulos-container {
+    background-color: #1a1a1a; /* Fondo gris oscuro */
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+    text-align: center; /* Centrar el contenido */
+    margin-top: 40px;
+}
+
+.titulos-container h2 {
+    color: #d4af37; /* Dorado para el título */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Contenedor para centrar el carrusel */
+.carousel-wrapper {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    width: 100%;
+    max-width: 800px; /* Ancho máximo del carrusel */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+/* Estilos para el carrusel */
+.carousel-titulos {
+    width: 100%;
+}
+
+.carousel-titulos img {
+    width: 100%;
+    height: 300px; /* Altura fija para las imágenes */
+    object-fit: contain; /* Muestra la imagen completa */
+    background-color: #1a1a1a; /* Fondo para los espacios vacíos */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
