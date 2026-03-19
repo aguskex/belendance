@@ -321,6 +321,9 @@ h2 {
 .clase.stretching {
     flex-direction: row-reverse; /* Carrusel a la izquierda, texto a la derecha */
 }
+.clase.hockey {
+    flex-direction: row-reverse;
+}
 
 .clases-container-mobile {
     display: none;
